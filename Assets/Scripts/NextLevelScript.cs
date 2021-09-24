@@ -6,14 +6,20 @@ using UnityEngine.SceneManagement;
 public class NextLevelScript : MonoBehaviour
 {
 
-    [SerializeField] private string Level2;
+    [SerializeField] private List<string> levelList;
+    private int currentLevel;
 
+
+    private void Awake()
+    {
+        DontDestroyOnLoad(this);
+    }
 
     private void OnTriggerEnter(Collider other)
     {
         if(other.CompareTag("Player"))
         {
-            SceneManager.LoadScene(Level2);  // enters next scene when colliding with player.
+            GameManager.instance.GoToNextlevel();
         }
 
     }
