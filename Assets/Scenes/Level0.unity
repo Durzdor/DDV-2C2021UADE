@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: a7e988157dcc92c4fb10888a7110fb70, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -758,7 +758,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d3f6d5b232e14fc4299a9c3325bdd3dc, type: 3}
+  m_audioClip: {fileID: 8300000, guid: f0cb4bce7e922e446b5f78c6b6f27c2a, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.625
   m_Pitch: 1
@@ -2308,9 +2308,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levels:
   - Level0
+  - Level1
   - Level2
-  - Level3
   currentLevel: 0
+  currentCoinCount: 0
+  coins: 030000000400000006000000
 --- !u!4 &558120288
 Transform:
   m_ObjectHideFlags: 0
@@ -8057,7 +8059,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4029177019836960, guid: 1ac2caf6f2f614c46a0ba6bf84980007, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.3151104
+      value: -2.24
       objectReference: {fileID: 0}
     - target: {fileID: 4029177019836960, guid: 1ac2caf6f2f614c46a0ba6bf84980007, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8426,7 +8428,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4166737424974280, guid: c77201b26fc729742973d2d4e601743f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.988
+      value: -10.026
       objectReference: {fileID: 0}
     - target: {fileID: 4166737424974280, guid: c77201b26fc729742973d2d4e601743f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -8434,7 +8436,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4166737424974280, guid: c77201b26fc729742973d2d4e601743f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 14.119
+      value: 14.26
       objectReference: {fileID: 0}
     - target: {fileID: 4166737424974280, guid: c77201b26fc729742973d2d4e601743f, type: 3}
       propertyPath: m_LocalRotation.w

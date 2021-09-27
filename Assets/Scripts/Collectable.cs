@@ -8,7 +8,10 @@ public class Collectable : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            GameManager.instance.CollectCoins();
             Destroy(gameObject);
         }
     }
+
+    
 }
