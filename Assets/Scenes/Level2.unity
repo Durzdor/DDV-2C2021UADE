@@ -3345,6 +3345,7 @@ MonoBehaviour:
   - Level0
   - Level1
   - Level2
+  - Level3
   currentLevel: 2
   currentCoinCount: 0
   coins: 030000000400000006000000
