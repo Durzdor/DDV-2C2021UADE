@@ -9563,6 +9563,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d580b95eb14a9343892988ede51bc7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pickUpSound: {fileID: 8300000, guid: ebbd998c400faa243aa766c8f80df497, type: 3}
 --- !u!4 &1293663239 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4758555946733452, guid: 9e928de923724f54ea836e735efdd8b6, type: 3}
